@@ -12,5 +12,6 @@ namespace AulaRelacionamento
         public Contexto(DbContextOptions<Contexto> opt) : base(opt) { }
         public DbSet<Usuario> USUARIOS { get; set; }
         public DbSet<Filme> FILMES { get; set; }
+        public DbSet<Usuarios_Filmes> USUARIOS_FILMES { get; set; }
     }
 }
